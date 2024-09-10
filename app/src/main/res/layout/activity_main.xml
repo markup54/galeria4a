@@ -12,6 +12,9 @@
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:numStars="6"
+        android:max="10"
+        android:isIndicator="true"
        />
 
     <LinearLayout
@@ -25,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+
             android:text="Wstecz" />
 
         <ImageView
@@ -43,6 +47,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Opis obrazka" />
@@ -51,6 +56,8 @@
         android:id="@+id/ratingBar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:numStars="6"
+        android:max="10"
  />
 
     <Button
